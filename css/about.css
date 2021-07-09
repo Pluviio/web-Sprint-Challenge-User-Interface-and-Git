@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -46,6 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 
 * {
     box-sizing: border-box;
@@ -108,61 +109,55 @@ p {
     margin: 0 auto;
 }
 
-.top-content {
+p {
+    line-height: 1.4;
+}
+
+.about {
+    border-bottom: dotted black 2px;
+    padding-bottom: 20px;
+}
+.middle {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+.middle div {
+    width: 47.5%;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.middle div img {
+    width: 100%;
+} 
+
+.middle div div {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 3%;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 30%;
+    text-align:center;
 }
 
+.middle h3 {
+    margin-top: 20px;
+}
+
+.middle .strategy, .work {
+    padding-top: 30px;
+}
+
+.middle .places, .collab {
+    border-top: dotted black 2px;
+    padding-top: 50px;
+    border-bottom: dotted black 2px;
+}
+
+.lets {
+    padding-top: 40px;
+}
 footer {
     width: 100%;
     background: black;
