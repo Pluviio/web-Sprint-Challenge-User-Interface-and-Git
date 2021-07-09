@@ -58,14 +58,19 @@ nav {
   justify-content: space-evenly;
   width:70%;
   height:30px;
-  border: 1px solid red;
+ 
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
 }
 
 header {
     display:flex;
     align-items: center;
     justify-content: space-evenly;
-    border: solid red 1px;
+    
     margin: 0 auto;
     width: 80%;
 }
@@ -79,8 +84,6 @@ header {
 }
 
 .headimg img {
-  
-   border: 1px solid red;
    margin-bottom: 30px;
    margin-top: 10px;
    margin-left: 200px;
@@ -117,6 +120,7 @@ p {
     border-bottom: dotted black 2px;
     padding-bottom: 20px;
 }
+
 .middle {
     display: flex;
     flex-wrap: wrap;
@@ -157,10 +161,13 @@ p {
 
 .lets {
     padding-top: 40px;
+    padding-bototm: 40px;
 }
+
 footer {
     width: 100%;
     background: black;
+
 }
 
 footer nav {
